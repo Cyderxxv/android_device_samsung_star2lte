@@ -23,8 +23,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 $(call inherit-product, device/samsung/star2lte/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Elixir stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common DerpFest12 stuff.
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 TARGET_INCLUDE_PIXEL_CHARGER := true
 TARGET_SUPPORT_FACE_UNLOCK := true
 
