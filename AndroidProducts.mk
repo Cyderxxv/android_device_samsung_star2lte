@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_star2lte.mk
+    $(LOCAL_DIR)/radiant_star2lte.mk
 
 COMMON_LUNCH_CHOICES := \
-     aosp_star2lte-userdebug \
-     aosp_star2lte-eng \
-     aosp_star2lte-user
+     radiant_star2lte-userdebug \
+     radiant_star2lte-eng \
+     radiant_star2lte-user
